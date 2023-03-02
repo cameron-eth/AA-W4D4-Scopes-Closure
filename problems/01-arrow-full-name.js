@@ -14,7 +14,10 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
 
-// Your code here
+const arrowGetFullName = () => {
+  Object
+  return Object
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
