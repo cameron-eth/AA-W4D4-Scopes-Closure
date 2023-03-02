@@ -14,8 +14,15 @@ let result3 = addFive(37); // returns 42
 
 
 ***********************************************************************/
+/* POLYAS*/
 
-// Your code here
+let addFive = (num) => {return num + 5}
+
+console.log(addFive(5)) // 10
+console.log(addFive(7)) // 12
+console.log(addFive(9)) // 14
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
