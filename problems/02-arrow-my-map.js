@@ -17,7 +17,15 @@ let result2 = arrowMyMap(['run', 'Forrest'], yell);
 console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 
 ***********************************************************************/
-
+let arrowMyMap = (array, cb) => {
+  return cb(array);
+}
+let mapper = (array) => {
+  for (let el in array) {
+    return el => el.toUpperCase() + '!'
+  }
+}
+console.log(arrowMyMap['hi', 'hey'], mapper)// ['HI', 'HEY']
 // Your code here
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

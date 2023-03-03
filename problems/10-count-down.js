@@ -28,8 +28,17 @@ Example 4:
 
 ***********************************************************************/
 
-// Your code here
+// incomplete
+// let countDown = (count) => {
+//   if(count === 0) {
+//     return () => {
+//       return 'Happy New Year!'
+//     }
+//     
+//   }
+// }
 
+// console.log(countDown(9))
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

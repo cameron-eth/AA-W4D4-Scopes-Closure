@@ -14,8 +14,33 @@ hidden2(); // returns 1
 
 
 ***********************************************************************/
+/* 
+we set count to 0
+return a func that increments and returns the count
+(see console log for rest)
+*/
 
-// Your code here
+let hiddenCounter = () => {
+  let count = 0;
+  return () => {
+    count++;
+    return count;
+  }
+}
+
+/* we invoke the function in this way to assure we are counting each itteration. In order to do so we declare a var that will console.log our func multiple times
+each console log should increment the count */
+
+let hidden1 = hiddenCounter(); //returns a function
+console.log(hidden1()); // outputs 1
+console.log(hidden1()); // outputs 2
+console.log(hidden1()); // outputs 3
+console.log(hidden1()); // outputs 4
+console.log(hidden1()); // outputs 5
+
+
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
