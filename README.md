@@ -1,4 +1,4 @@
-# Scope Project
+# Scope Project W4D4
 
 It's time to get some practice using scope in the wild! This task includes a
 link to clone a GitHub repo with a number of problems.
